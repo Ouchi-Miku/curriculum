@@ -1,0 +1,54 @@
+clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+}
+  .main{
+    width: 200px;
+    height: 100px;
+    background-color:blue;
+} 
+
+.main{
+    display:flex ;
+}
+.right{
+    width: 400px;
+    height: 150px;
+    background-color:blue; 
+    float: left;
+}
+.left{
+    width: 200px;
+    height: 400px;
+    background-color:green; 
+    float: left;
+}
+.right{
+    width: 500px;
+    height: 100px;
+    background-color:brown
+}
+.right{
+    width: 100px;
+    height: 50px;
+    background-color:yellow;
+    float: left;
+}
+.left{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    float: left;
+}
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color:orange;
+}
