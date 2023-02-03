@@ -1,4 +1,4 @@
-clearfix::after{
+.clearfix::after{
     content: "";
     display: block;
     clear: both;
@@ -10,6 +10,11 @@ clearfix::after{
     background-color: #141f40;
     position: relative;
 }
+
+
+.main {
+  display:flex ;
+} 
 
 .white {
    width: 160px;
@@ -37,32 +42,54 @@ clearfix::after{
   right: 110px;
 }
 
-
-/* .main {
-  width: 40px;
-  height: 40px;
-  background-color: #a9004b;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-} */
-
-
 .left {
-  width: 40px;
-  height: 40px;
+  width: 150px;
+  height: 100px;
   background-color: green;
+  float: left;
 }
 
 
-.right{
-  width: 40px;
-  height: 40px;
-  background-color: #a9004b;
+.brown{
+  width: 250px;
+  height: 100px;
+  background-color: brown;
+  float: left;
 }
+
+.white {
+  width: 160px;
+   height: 60px;
+   background-color: #fff;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+  float: left;
+}
+
+.orange {
+  width: 160px;
+   height: 60px;
+   background-color:orange;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   float: left;
+}
+
+.orange:nth-child(2){
+  right: 60px;
+  float: left;
+}
+
+.orange:nth-child(2){
+  right: 60px;
+  float: left;
+}
+
 
 .footer{
-  width: 40px;
-  height: 40px;
+  width: 400px;
+  height: 250px;
   background-color: #d98d30;
 }
