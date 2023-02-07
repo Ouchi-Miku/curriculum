@@ -90,8 +90,8 @@
 }
 
 
-.@media screen and (max-width:479px) {
-.brown{
+@media screen and (max-width:479px) {
+.left{
   width: 200px;
   height: 100px;
 }
@@ -106,7 +106,7 @@
    top: 100px;
 }
 
-.@media screen and (max-width:479px) {
+@media screen and (max-width:479px) {
   .brown{
       width: 200px;
       height: 180px;
